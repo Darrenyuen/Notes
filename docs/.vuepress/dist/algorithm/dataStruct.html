@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>数据结构与算法 | 博客，记录成长</title>
+    <meta name="description" content="个人博客网站，记录与分享成长的经验">
+    <link rel="icon" href="/img/logo.jpg">
+    
+    <link rel="preload" href="/assets/css/0.styles.bc50b6ac.css" as="style"><link rel="preload" href="/assets/js/app.4c665594.js" as="script"><link rel="preload" href="/assets/js/4.b195e05a.js" as="script"><link rel="prefetch" href="/assets/js/10.10a3af55.js"><link rel="prefetch" href="/assets/js/11.31082d78.js"><link rel="prefetch" href="/assets/js/12.455cf564.js"><link rel="prefetch" href="/assets/js/13.d0237fd2.js"><link rel="prefetch" href="/assets/js/14.c778b077.js"><link rel="prefetch" href="/assets/js/15.9c2d5da8.js"><link rel="prefetch" href="/assets/js/16.172b380e.js"><link rel="prefetch" href="/assets/js/17.46ee1194.js"><link rel="prefetch" href="/assets/js/18.aad36138.js"><link rel="prefetch" href="/assets/js/2.138404e6.js"><link rel="prefetch" href="/assets/js/3.6f8dafc3.js"><link rel="prefetch" href="/assets/js/5.998e5313.js"><link rel="prefetch" href="/assets/js/6.b189eb97.js"><link rel="prefetch" href="/assets/js/7.1166aeba.js"><link rel="prefetch" href="/assets/js/8.63dd6795.js"><link rel="prefetch" href="/assets/js/9.a1495f40.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.bc50b6ac.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">博客，记录成长</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/home/introduction.html" class="nav-link">主页</a></div><div class="nav-item"><a href="/programming/html.html" class="nav-link">程序设计</a></div><div class="nav-item"><a href="/softwareDevelopment/frontEnd.html" class="nav-link">软件开发</a></div><div class="nav-item"><a href="/algorithm/dataStruct.html" class="nav-link router-link-exact-active router-link-active">算法</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">其他</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://blog.csdn.net/weixin_41897234/article/details/80615801" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  CSDN
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://github.com/Ysssf" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://www.cnblogs.com/yuansssf/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  博客园
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://www.jianshu.com/u/a81eb591e67f" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  简书
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/home/introduction.html" class="nav-link">主页</a></div><div class="nav-item"><a href="/programming/html.html" class="nav-link">程序设计</a></div><div class="nav-item"><a href="/softwareDevelopment/frontEnd.html" class="nav-link">软件开发</a></div><div class="nav-item"><a href="/algorithm/dataStruct.html" class="nav-link router-link-exact-active router-link-active">算法</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">其他</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://blog.csdn.net/weixin_41897234/article/details/80615801" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  CSDN
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://github.com/Ysssf" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://www.cnblogs.com/yuansssf/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  博客园
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://www.jianshu.com/u/a81eb591e67f" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  简书
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first"><p class="sidebar-heading open"><span>算法</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/algorithm/dataStruct.html" class="active sidebar-link">数据结构</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/algorithm/dataStruct.html#数据结构与算法" class="sidebar-link">数据结构与算法</a></li></ul></li><li><a href="/algorithm/经典排序算法.html" class="sidebar-link">经典排序算法</a></li><li><a href="/algorithm/搜索算法.html" class="sidebar-link">搜索算法</a></li></ul></div></li></ul> </div> <div class="page"> <div class="content"><h2 id="数据结构与算法"><a href="#数据结构与算法" aria-hidden="true" class="header-anchor">#</a> 数据结构与算法</h2> <ul><li>抽象数据类型
+<ul><li>数据类型
+<ul><li>数据对象集</li> <li>数据集合相关联的操作集</li></ul></li> <li>抽象
+<ul><li>描述数据类型的方法不依赖具体实现</li></ul></li></ul></li> <li>算法
+<ul><li>输入</li> <li>输出</li> <li>确定</li> <li>可行</li> <li>有限</li></ul></li> <li>好的算法（从时间复杂度T(n)和空间复杂度S(n)去考量）
+<ul><li>正确</li> <li>可读</li> <li>健壮</li> <li>高效</li> <li>低存储</li></ul></li></ul> <h4 id="线性表"><a href="#线性表" aria-hidden="true" class="header-anchor">#</a> 线性表</h4> <p>熟悉各类线性表的结构及基本操作：</p> <ol><li>初始化</li> <li>销毁</li> <li>清空</li> <li>判断是否为空</li> <li>求长度</li> <li>查找第几个元素</li> <li>查找某元素的位置</li> <li>直接前驱</li> <li>直接后继</li> <li>插入</li> <li>删除</li></ol> <ul><li>线性表的顺序表示和实现——数组
+<ul><li>静态分配的顺序表存储</li> <li>动态分配的顺序表存储</li></ul></li> <li>线性表的链式表示和实现——链表
+<ul><li>单链表
+<ul><li>不带头节点</li> <li>带头节点</li></ul></li> <li><em>静态链表</em></li> <li>双向循环链表
+##栈和队列
+栈、队列算受限的线性表</li></ul></li></ul> <h4 id="栈（stack）"><a href="#栈（stack）" aria-hidden="true" class="header-anchor">#</a> 栈（stack）</h4> <ul><li>特点：后进先出</li></ul> <p>栈的主要操作：
+1. 进栈
+2. 出栈
+3. 取栈顶
+4. 初始化空栈
+5. 判栈空否
+6. 判栈满否</p> <ul><li><p>动态顺序栈</p></li> <li><p>静态顺序栈</p></li> <li><p>链式栈</p></li></ul> <h4 id="队列（queue）"><a href="#队列（queue）" aria-hidden="true" class="header-anchor">#</a> 队列（queue）</h4> <ul><li>特点：先进先出</li></ul> <p>队列的主要操作：
+1. 初始化
+2. 队空
+3. 取对头元素
+4. 入队
+5. 出队</p> <ul><li><p>链队列</p></li> <li><p>循环队列：通过取模实现</p></li></ul> <ol><li>队头、队尾指针加1，用取模(余数)运算实现循环</li> <li>队头指针加1:  front = (front+1) %maxsize;</li> <li>队尾指针加1:  rear = (rear+1) % maxsize;</li> <li>队列初始化：front = rear = 0;</li> <li>队空条件：front == rear;</li> <li>队满条件：(rear+1) % maxsize == front;</li></ol> <h4 id="数组"><a href="#数组" aria-hidden="true" class="header-anchor">#</a> 数组</h4> <ul><li><p>数组的定义</p></li> <li><p>数组的顺序表示和实现（行优先、列优先）</p></li> <li><p>矩阵的运算</p></li> <li><p>矩阵的压缩存储</p> <ol><li>指为多值相同的元素只分配一个存储空间</li> <li>对零元素不分配空间</li></ol></li> <li><p>特殊矩阵</p> <ul><li>对称矩阵（n^2个元素压缩存储到n(n+1)/2）个元的空间中</li> <li>三角矩阵</li> <li>对角矩阵</li> <li>各种矩阵取值操作算法的实现</li></ul></li> <li><p>稀疏矩阵：只存储行列维数和非零元的行列下标及值</p> <ul><li>三元组表</li> <li>十字链表
+####广义表
+广义表的结构特点：</li></ul> <ol><li>数据元素有相对次序</li> <li>长度定义为最外层包含的元素个数</li> <li>深度定义为所含括弧的重数</li> <li>广义表可以共享</li> <li>广义表可以是一个递归的表，递归表的深度是无穷值，长度是有限值</li> <li>任何一个非空广义表均可分为表头、表尾</li></ol></li> <li><p>广义表的结构实现以及基本操作</p></li></ul> <h4 id="树"><a href="#树" aria-hidden="true" class="header-anchor">#</a> 树</h4> <p>树的定义：</p> <h4 id="树与二叉树"><a href="#树与二叉树" aria-hidden="true" class="header-anchor">#</a> 树与二叉树</h4> <p>树转换为二叉树：子节点当作左子树，兄弟节点当作右子树</p> <ul><li>二叉树的存储结构
+<ul><li>顺序存储</li> <li>链式存储（二叉链表、三叉链表（可以通过静态结构来实现））</li></ul></li> <li>二叉树的遍历
+<ul><li>前序</li> <li>中序</li> <li>后序</li></ul></li> <li>计算二叉树结点个数（递归算法）</li> <li>计算二叉树中叶子结点的个数（递归算法）</li> <li>求二叉树的高度（递归算法）</li> <li>复制二叉树（递归算法）</li> <li>判断二叉树等价</li> <li>线索二叉树（Threaded Binary Tree）
+利用n个结点的n+1个空链域记下遍历时得到的二叉树中各结点之间的次序关系</li></ul> <p>如何通过先序遍历建立先序线索化二叉树？
+如何通过中序遍历建立先序线索化二叉树？
+如何遍历线索二叉树？</p> <ul><li>哈夫曼树（带权路径长度最短的树，最优二叉树）
+<ul><li>树的路径长度：从树根到每一个结点的路径长度之和</li> <li>树的带权路径长度：树中所有带权结点的路径长度之和</li></ul></li></ul> <h4 id="树与森林"><a href="#树与森林" aria-hidden="true" class="header-anchor">#</a> 树与森林</h4> <ul><li>树的各种存储结构
+<ul><li>双亲表示法</li> <li>孩子表示法</li> <li>孩子—兄弟表示法</li></ul></li> <li>森林、树、二叉树的转换</li> <li>树的遍历（先根遍历、后根遍历、按层次遍历）</li> <li>森林的遍历</li> <li>二叉树的遍历</li></ul> <h4 id="哈夫曼树"><a href="#哈夫曼树" aria-hidden="true" class="header-anchor">#</a> 哈夫曼树</h4> <p>哈夫曼树（带权路径长度最短的树，最优二叉树）</p> <pre><code>+ 树的路径长度：从树根到每一个结点的路径长度之和
++ 树的带权路径长度：树中所有带权结点的路径长度之和
+</code></pre> <ul><li>采用顺序存储结构——动态分配数组存储</li> <li>哈夫曼编码（Huffman编码是最优前缀编码，解码时不会混淆）</li> <li>构造哈夫曼树</li> <li>构建哈夫曼编码
+##图
+图是由点集和边集构成的，
+有向图的边也叫做弧，弧是顶点的有序对
+无向图
+有向完备图——n个顶点的有向图最大边数是 n(n-1)
+无向完备图——n个顶点的无向图最大边数是n(n-1)/2
+稀疏图：有很少边或弧（）
+稠密图
+顶点的度</li> <li>无向图中，顶点的度为每个顶点相连的边数</li> <li>有向图中，顶点的度分为入度和出度</li></ul> <p>子图
+权
+网：带权的图
+路径：路径是顶点的序列
+路径长度：沿路径边的数目或沿路径各边权值之和
+回路：第一个顶点和最后一个顶点相同的路径
+简单路径：序列中顶点不重复出现的路径
+简单回路：除了第一和最后一个顶点，其余顶点不重复出现的回路
+连通：两顶点之间有相连的路径，则
+连通图：任意两个顶点都是连通的
+连通分量：非连通图的每一个连通部分（连通的子图）
+强连通图：
+2. 图的抽象数据类型（图的顶点和边分开存储，邻接表和邻接矩阵）
+3. 图的存储结构</p> <ul><li>dfs,bfs执行一次得到一个连通分量</li> <li>所有生成树具有以下共同特点：
+<ul><li>生成树的顶点个数与图的顶点个数相同</li> <li>生成树是图的极小连通子图</li> <li>一个有n个顶点的连通图的生成树有n-1条边</li> <li>生成树中任意两个顶点间的路径是唯一的</li> <li>在生成树中再加一条必然形成回路
+矩阵的运算
+压缩矩阵
+十字链表
+递归的三个条件
+树的前中后序遍历</li></ul></li></ul></div> <div class="page-edit"><!----> <!----></div> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/algorithm/经典排序算法.html">
+          经典排序算法
+        </a>
+        →
+      </span></p></div> </div> <!----></div></div>
+    <script src="/assets/js/app.4c665594.js" defer></script><script src="/assets/js/4.b195e05a.js" defer></script>
+  </body>
+</html>
